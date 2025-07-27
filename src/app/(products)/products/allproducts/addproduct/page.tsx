@@ -299,7 +299,7 @@ const AddProductPage = () => {
     setIsSubmitting(true);
     
     try {
-      const { data, error } = await supabase
+      const {  error } = await supabase
         .from('products')
         .insert([newProducts]);
       
@@ -324,7 +324,7 @@ const AddProductPage = () => {
         setErrors({});
       }
     } catch (error) {
-      toast.error("Failed to add product. Please try again.");
+      toast.error(`Failed to add product. Please try again ${error}.`);
     } finally {
       setIsSubmitting(false);
     }
