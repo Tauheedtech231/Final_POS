@@ -26,7 +26,7 @@ type Product = {
   id: number;
   name: string;
   price: number;
-  image?: string;
+  
   images?: string;
   sku?: string;
   unit?: string;
@@ -110,6 +110,7 @@ const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       setIsLoading(true);
       try {
         const { data, error } = await supabase.from('products').select('*');
+        console.log(data)
         
         if (error) {
           console.error("Error fetching products:", error);
@@ -262,37 +263,38 @@ const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
             </div>
           ) : (
             <>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                {paginatedProducts.map(product => (
-                  <Card key={product.id} className="hover:shadow-md transition-shadow">
-                    <div className="aspect-square relative overflow-hidden">
-                     
+             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+  {paginatedProducts.map(product => {
+    console.log("🖼️ Product Image:", product.images); // 👈 Print in console
 
-<Image
-  src={product?.images || "/Pos1.png"}
-  alt={product.name}
-  fill
-  className="object-cover"
-  sizes="(max-width: 768px) 100vw, 33vw"
-/>
-
-                    </div>
-                    <CardContent className="p-3 space-y-1">
-                      <h3 className="font-medium text-sm line-clamp-1">{product.name}</h3>
-                      <p className="text-sm text-gray-600">
-                        ${product.price.toFixed(2)}{product?.unit && `/${product?.unit}`}
-                      </p>
-                      <Button
-                        size="sm"
-                        className="w-full mt-2"
-                        onClick={() => addToCart(product.id)}
-                      >
-                        <Plus className="h-4 w-4 mr-1" /> Add
-                      </Button>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
+    return (
+      <Card key={product.id} className="hover:shadow-md transition-shadow">
+        <div className="aspect-square relative overflow-hidden">
+          <Image
+            src={product?.images || "/Pos1.png"}
+            alt={product.name}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 33vw"
+          />
+        </div>
+        <CardContent className="p-3 space-y-1">
+          <h3 className="font-medium text-sm line-clamp-1">{product.name}</h3>
+          <p className="text-sm text-gray-600">
+            ${product.price.toFixed(2)}{product?.unit && `/${product?.unit}`}
+          </p>
+          <Button
+            size="sm"
+            className="w-full mt-2"
+            onClick={() => addToCart(product.id)}
+          >
+            <Plus className="h-4 w-4 mr-1" /> Add
+          </Button>
+        </CardContent>
+      </Card>
+    );
+  })}
+</div>
 
               {/* Pagination */}
               {totalPages > 1 && (

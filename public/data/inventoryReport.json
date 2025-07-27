@@ -1,0 +1,137 @@
+[
+  {
+    "product": "Organic Apples",
+    "sku": "SKU-001",
+    "opening": 100,
+    "purchases": 70,
+    "sales": 85,
+    "transferIn": 20,
+    "transferOut": 10
+  },
+  {
+    "product": "Whole Wheat Bread",
+    "sku": "SKU-002",
+    "opening": 100,
+    "purchases": 40,
+    "sales": 35,
+    "transferIn": 10,
+    "transferOut": 5
+  },
+  {
+    "product": "Free-Range Eggs",
+    "sku": "SKU-003",
+    "opening": 100,
+    "purchases": 90,
+    "sales": 110,
+    "transferIn": 30,
+    "transferOut": 15
+  },
+  {
+    "product": "Almond Milk",
+    "sku": "SKU-004",
+    "opening": 100,
+    "purchases": 50,
+    "sales": 45,
+    "transferIn": 15,
+    "transferOut": 10
+  },
+  {
+    "product": "Cheddar Cheese",
+    "sku": "SKU-005",
+    "opening": 100,
+    "purchases": 55,
+    "sales": 30,
+    "transferIn": 5,
+    "transferOut": 10
+  },
+  {
+    "product": "Ground Beef",
+    "sku": "SKU-006",
+    "opening": 100,
+    "purchases": 80,
+    "sales": 95,
+    "transferIn": 25,
+    "transferOut": 5
+  },
+  {
+    "product": "Chicken Breast",
+    "sku": "SKU-007",
+    "opening": 100,
+    "purchases": 60,
+    "sales": 50,
+    "transferIn": 15,
+    "transferOut": 10
+  },
+  {
+    "product": "Salmon Fillets",
+    "sku": "SKU-008",
+    "opening": 100,
+    "purchases": 85,
+    "sales": 105,
+    "transferIn": 20,
+    "transferOut": 15
+  },
+  {
+    "product": "Spinach",
+    "sku": "SKU-009",
+    "opening": 100,
+    "purchases": 30,
+    "sales": 25,
+    "transferIn": 10,
+    "transferOut": 5
+  },
+  {
+    "product": "Rice Basmati",
+    "sku": "SKU-010",
+    "opening": 100,
+    "purchases": 95,
+    "sales": 115,
+    "transferIn": 30,
+    "transferOut": 10
+  },
+  {
+    "product": "Coca Cola",
+    "sku": "SKU-011",
+    "opening": 100,
+    "purchases": 70,
+    "sales": 100,
+    "transferIn": 25,
+    "transferOut": 10
+  },
+  {
+    "product": "Orange Juice",
+    "sku": "SKU-012",
+    "opening": 100,
+    "purchases": 65,
+    "sales": 60,
+    "transferIn": 20,
+    "transferOut": 10
+  },
+  {
+    "product": "Bananas",
+    "sku": "SKU-013",
+    "opening": 100,
+    "purchases": 75,
+    "sales": 85,
+    "transferIn": 20,
+    "transferOut": 10
+  },
+  {
+    "product": "Toothpaste",
+    "sku": "SKU-014",
+    "opening": 100,
+    "purchases": 50,
+    "sales": 40,
+    "transferIn": 10,
+    "transferOut": 5
+  },
+  {
+    "product": "Shampoo",
+    "sku": "SKU-015",
+    "opening": 100,
+    "purchases": 60,
+    "sales": 55,
+    "transferIn": 15,
+    "transferOut": 10
+  }
+]

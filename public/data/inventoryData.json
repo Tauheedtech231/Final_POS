@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "dateTime": "2025-07-24T10:00:00",
+    "user": "Emily Carter",
+    "type": "In",
+    "quantity": "+10",
+    "remarks": "Restocked Pepsi bottles"
+  },
+  {
+    "id": 2,
+    "dateTime": "2025-07-24T12:15:00",
+    "user": "David Lee",
+    "type": "Out",
+    "quantity": "-5",
+    "remarks": "Sold Chips Pack"
+  },
+  {
+    "id": 3,
+    "dateTime": "2025-07-23T09:30:00",
+    "user": "Emily Carter",
+    "type": "In",
+    "quantity": "+20",
+    "remarks": "Added Dairy Milk stock"
+  },
+  {
+    "id": 4,
+    "dateTime": "2025-07-22T15:45:00",
+    "user": "Sara Khan",
+    "type": "Out",
+    "quantity": "-10",
+    "remarks": "Order for school canteen"
+  },
+  {
+    "id": 5,
+    "dateTime": "2025-07-18T14:20:00",
+    "user": "David Lee",
+    "type": "In",
+    "quantity": "+15",
+    "remarks": "New Snacks Batch"
+  },
+  {
+    "id": 6,
+    "dateTime": "2025-07-17T11:05:00",
+    "user": "Emily Carter",
+    "type": "Out",
+    "quantity": "-7",
+    "remarks": "Retail sales"
+  },
+  {
+    "id": 7,
+    "dateTime": "2025-07-25T09:00:00",
+    "user": "Zara Ali",
+    "type": "In",
+    "quantity": "+30",
+    "remarks": "Fresh Juice bottles restocked"
+  },
+  {
+    "id": 8,
+    "dateTime": "2025-07-25T11:30:00",
+    "user": "Bilal Ahmed",
+    "type": "Out",
+    "quantity": "-8",
+    "remarks": "Sold Lay's Pack"
+  },
+  {
+    "id": 9,
+    "dateTime": "2025-07-25T13:10:00",
+    "user": "Zara Ali",
+    "type": "In",
+    "quantity": "+12",
+    "remarks": "Biscuits added to shelf"
+  },
+  {
+    "id": 10,
+    "dateTime": "2025-07-25T15:45:00",
+    "user": "David Lee",
+    "type": "Out",
+    "quantity": "-12",
+    "remarks": "Walk-in customer order"
+  },
+  {
+    "id": 11,
+    "dateTime": "2025-07-26T08:00:00",
+    "user": "Sara Khan",
+    "type": "In",
+    "quantity": "+18",
+    "remarks": "Grocery restocked"
+  },
+  {
+    "id": 12,
+    "dateTime": "2025-07-26T10:15:00",
+    "user": "Emily Carter",
+    "type": "Out",
+    "quantity": "-9",
+    "remarks": "Bulk purchase from local store"
+  },
+  {
+    "id": 13,
+    "dateTime": "2025-07-26T14:30:00",
+    "user": "Bilal Ahmed",
+    "type": "In",
+    "quantity": "+25",
+    "remarks": "Energy drinks restock"
+  },
+  {
+    "id": 14,
+    "dateTime": "2025-07-27T10:45:00",
+    "user": "Zara Ali",
+    "type": "Out",
+    "quantity": "-4",
+    "remarks": "Returned expired goods"
+  },
+  {
+    "id": 15,
+    "dateTime": "2025-07-27T16:00:00",
+    "user": "David Lee",
+    "type": "In",
+    "quantity": "+22",
+    "remarks": "New bakery items"
+  }
+]
+
+  
+
+
